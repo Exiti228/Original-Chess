@@ -1,2 +1,2 @@
 # Original-Chess
-Original chess simple interactive site
+Chess simple interactive site with original rules
