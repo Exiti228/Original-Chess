@@ -1,0 +1,81 @@
+.cell{
+	width: 56px;
+	height: 56px;
+	text-align: center;
+	color: white;
+	
+}
+img:not(.not_image){
+	height: 56px;
+	width: 56px;
+	cursor: pointer;
+}
+#board_div{
+	height: 498px;
+	width: 498px;
+	float: left;
+}
+.chose_color{
+	height: 100px;
+	width: 250px;
+}
+.block_turns{
+	height: 498px;
+	width: 508px;
+	float: left;
+}
+.turns_write{
+	height: 498px;
+	width: 498px;
+	float: left;
+}
+.garbage_block{
+	height: 498px;
+	width: 10px;
+	float: left;
+}
+.row_turns:nth-child(2n){
+	background-color: grey;
+}
+.row_turns:nth-child(2n+1){
+	background-color: #CCCCCC;
+}
+li{
+	display: block;
+}
+.row_turns{
+	height: 20px;
+}
+#btn_blck{
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	
+	justify-content: center;
+
+}
+#block_game{
+	height: 600px;
+}
+#lower_black, #lower_white{
+	
+	width: 498px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+#back_to_menu{
+	font-size: 30px;
+	cursor: pointer;
+}
+#lower_black{
+	
+}
+#lower_white{
+	
+
+}
+
+
+
+
+
